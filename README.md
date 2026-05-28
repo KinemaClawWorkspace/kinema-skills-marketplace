@@ -73,4 +73,4 @@ kinema-skills-marketplace/
 
 ## 许可
 
-私有仓库，仅限 KinemaClawWorkspace 成员使用。
+[GNU General Public License v3.0](LICENSE)
