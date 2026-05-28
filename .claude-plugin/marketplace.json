@@ -1,0 +1,71 @@
+{
+  "name": "kinema-skills-marketplace",
+  "displayName": "KinemaClaw Skills Marketplace",
+  "description": "KinemaClaw 私有 skill 集合 — TDD 注入、任务管理、文件管理、概念研究、搜索引擎、Skill 开发规范",
+  "owner": {
+    "name": "KinemaClaw",
+    "url": "https://github.com/KinemaClawWorkspace"
+  },
+  "plugins": [
+    {
+      "name": "kinema-tdd-injector",
+      "displayName": "Kinema's TDD Injector",
+      "description": "一次性 TDD 方法论注入器，为仓库生成定制版 CLAUDE.md（三阶测试体系、conftest 分层、覆盖率门槛）",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/kinema-tdd-injector"
+      },
+      "strict": false
+    },
+    {
+      "name": "kinema-task-management",
+      "displayName": "Kinema's Task Management",
+      "description": "AI Agent 维护的个人任务追踪系统，支持每日报告、主动推送、任务回溯",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/kinema-task-management"
+      },
+      "strict": false
+    },
+    {
+      "name": "alist-cli",
+      "displayName": "AList CLI",
+      "description": "AList 文件管理 CLI，支持 upload/download/list/mkdir/rm/mv/search/url",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/alist-cli"
+      },
+      "strict": false
+    },
+    {
+      "name": "kinema-skill-making-pipeline",
+      "displayName": "Kinema's Skill Making Pipeline",
+      "description": "KinemaClaw Skill 开发与发布规范，定义标准开发流程、版本管理和发布",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/kinema-skill-making-pipeline"
+      },
+      "strict": false
+    },
+    {
+      "name": "kinema-concept-research",
+      "displayName": "Kinema's Concept Re-Search",
+      "description": "概念研究 skill — 多语言关键词、多搜索引擎交叉验证、多维度搜索",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/kinema-concept-research"
+      },
+      "strict": false
+    },
+    {
+      "name": "searxng-search-cli",
+      "displayName": "SearXNG Search CLI",
+      "description": "自托管 SearXNG 搜索引擎 CLI，聚合 200+ 搜索引擎，免费、多渠道",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/searxng-search-cli"
+      },
+      "strict": false
+    }
+  ]
+}
