@@ -66,6 +66,16 @@
         "repo": "KinemaClawWorkspace/searxng-search-cli"
       },
       "strict": false
+    },
+    {
+      "name": "git-log-tracker",
+      "displayName": "Git Log Tracker",
+      "description": "Git post-commit hook + SQLite 索引工具，自动记录每次 commit 元数据，支持跨仓库查询、统计和管理",
+      "source": {
+        "source": "github",
+        "repo": "KinemaClawWorkspace/git-log-tracker"
+      },
+      "strict": false
     }
   ]
 }

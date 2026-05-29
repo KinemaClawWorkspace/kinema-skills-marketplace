@@ -12,6 +12,7 @@
 | [kinema-skill-making-pipeline](https://github.com/KinemaClawWorkspace/kinema-skill-making-pipeline) | KinemaClaw Skill 开发与发布规范 |
 | [kinema-concept-research](https://github.com/KinemaClawWorkspace/kinema-concept-research) | 概念研究 — 多语言关键词、多引擎交叉验证、多维度搜索 |
 | [searxng-search-cli](https://github.com/KinemaClawWorkspace/searxng-search-cli) | 自托管 SearXNG 搜索引擎 CLI，聚合 200+ 搜索引擎 |
+| [git-log-tracker](https://github.com/KinemaClawWorkspace/git-log-tracker) | Git commit 索引工具，自动记录元数据，跨仓库查询和统计 |
 
 ## 安装
 
